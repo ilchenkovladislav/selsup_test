@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.params {
+  display: grid;
+  gap: 10px;
+}
+
+.param {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+}
+
+.param label {
+  font-size: 24px;
+  text-align: right;
+}
+
+.param input {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.params button {
+  margin-top: 20px;
+  padding: 20px 0;
+}
